@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 
-div {
+section{
   background-color: #1e1e1e;
   margin: 30px auto;
   padding: 25px;
@@ -58,15 +58,19 @@ div {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
-div h2 {
-  color: #f39c12;
-  margin-bottom: 15px;
-  border-bottom: 2px solid #f39c12;
-  display: inline-block;
-  padding-bottom: 5px;
+summary {
+  display: block;
+  background-color: #1e1e1e;
+  margin: 30px auto;
+  padding: 25px;
+  width: 85%;
+  max-width: 900px;
+  border-radius: 10px;
+  color: #ddd;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
-div p, div li, blockquote {
+section p, section li, blockquote {
   color: #ddd;
   font-size: 16px;
 }
